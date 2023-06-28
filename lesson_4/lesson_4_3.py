@@ -5,5 +5,5 @@ some_dict = {
     "email": b,
 }
 w = int(input("n: "))
-some_list = {i: some_dict for i, some_dict in range(0, w+1)}
+some_list = {i: some_dict.keys() for i, some_dict.keys() in range(0, w+1)}
 print(some_list)
